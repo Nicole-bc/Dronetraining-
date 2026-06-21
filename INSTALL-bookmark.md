@@ -12,19 +12,18 @@ You need `dts.user.js` reachable at a raw URL (see the Tampermonkey guide for as
 the file and committing it). Your URL will be one of:
 
 ```
-https://raw.githubusercontent.com/<USER>/<REPO>/main/dts.user.js
-https://cdn.jsdelivr.net/gh/<USER>/<REPO>@main/dts.user.js   (often faster)
+https://raw.githubusercontent.com/Nicole-bc/Dronetraining/main/dts.user.js
 ```
 
 ## 2. Set your URL in the loader
 Open `loaders/bookmarklet.js` (the readable version) and set:
 
 ```js
-var SCRIPT_URL = "https://raw.githubusercontent.com/<USER>/<REPO>/main/dts.user.js";
+var SCRIPT_URL = "https://raw.githubusercontent.com/Nicole-bc/Dronetraining/main/dts.user.js";
 ```
 
 The ready-to-paste one-liner lives in `loaders/bookmarklet.url.txt` — edit the same
-`<USER>/<REPO>/<BRANCH>` placeholder inside it to your real path before using it.
+`Nicole-bc/Dronetraining/main` placeholder inside it to your real path before using it.
 
 ## 3. Create the bookmark
 1. Make any new bookmark (bookmark this page, then edit it — easiest way to get an
