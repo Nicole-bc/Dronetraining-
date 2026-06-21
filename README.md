@@ -53,3 +53,17 @@ loaded to inject the mod for that session.
   nothing, the userscript route is the reliable one.
 - It does not persist — you re-click each session, and it can't reproduce the manager's
   `@run-at document-end` timing perfectly.
+
+## Credits & attribution
+
+- **Original mod:** [zajucd](https://greasyfork.org/) — DroneTrainingSystem for Bondage Club.
+  All core design, mechanics, and code are zajucd's work.
+- **English display layer:** the local English translation build that this copy is based on.
+- **This repo:** a personal host of that English build, set up so the English-speaking
+  Bondage Club community can install and auto-update it conveniently. No gameplay or logic
+  changes were made — only packaging (install guides, optional loader) and the two
+  `@updateURL` / `@downloadURL` header lines.
+
+This project is distributed under the MIT License (see `LICENSE`), with zajucd's copyright
+notice preserved as MIT requires. If you are the original author and would prefer this copy
+be taken down or changed, please open an issue.
