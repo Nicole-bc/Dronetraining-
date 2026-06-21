@@ -8,8 +8,6 @@
 // @include /^https:\/\/(www\.)?bondageprojects\.elementfx\.com\/R\d+\/(BondageClub|\d+)\/(\d+\.html)?$/
 // @include /^https:\/\/(www\.)?bondage-europe\.com\/R\d+\/(BondageClub|\d+)\/(\d+\.html)?$/
 // @include /^https:\/\/(www\.)?bondageprojects\.com\/R\d+\/$/
-// @updateURL   https://raw.githubusercontent.com/Nicole-bc/Dronetraining/main/dts.user.js
-// @downloadURL https://raw.githubusercontent.com/Nicole-bc/Dronetraining/main/dts.user.js
 // @grant none
 // @run-at document-end
 // ==/UserScript==
